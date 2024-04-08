@@ -1,3 +1,5 @@
-<h1>
-    {{person.coments.coment}}
-</h1>
+{{#if person.coments.admin}}
+<h1>this is admin</h1>
+{{else}}
+<h1>this user</h1>
+{{/if}}

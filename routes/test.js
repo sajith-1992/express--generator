@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
     var person = {
         name : "sajith", coments :{
-            coment:"this is sajith"
+            coment:"this is sajith ", admin:false
         }
     }
   res.render('test',  {person});
