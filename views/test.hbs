@@ -1,5 +1,5 @@
-{{#if person.coments.admin}}
-<h1>this is admin</h1>
-{{else}}
-<h1>this user</h1>
-{{/if}}
+{{#with person}}
+{{#with coments}}
+{{proname}}
+{{/with}}
+{{/with}}
